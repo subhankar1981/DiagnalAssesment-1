@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DiagnalAssesment/static/css/main.a3ddc243.css",
+    "main.js": "/DiagnalAssesment/static/js/main.3b6bfa3b.js",
+    "static/js/453.4244a480.chunk.js": "/DiagnalAssesment/static/js/453.4244a480.chunk.js",
+    "index.html": "/DiagnalAssesment/index.html",
+    "main.a3ddc243.css.map": "/DiagnalAssesment/static/css/main.a3ddc243.css.map",
+    "main.3b6bfa3b.js.map": "/DiagnalAssesment/static/js/main.3b6bfa3b.js.map",
+    "453.4244a480.chunk.js.map": "/DiagnalAssesment/static/js/453.4244a480.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3ddc243.css",
+    "static/js/main.3b6bfa3b.js"
+  ]
+}

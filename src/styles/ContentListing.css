@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #171717;
+    color: #FFFFFF;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.content-listing {
+    padding-top: 60px; /* Adjust padding to ensure content is not hidden behind header */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000;
+    z-index: 1000; /* Ensure header is above all other content */
+    transition: background-image 0.3s ease-in-out;
+}
+
+header.scrolled {
+    background-image: url('../images/nav_bar.png'); /* Add your background image here */
+    background-size: cover;
+    height: 5%;
+}
+
+header button, header img {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+header span {
+    font-size: 17px;
+}
+
+.icon {
+    width: 20px; /* Default width for icons */
+    height: 20px; /* Default height for icons */
+    cursor: pointer;
+}
+
+.back-icon {
+    width: 20px; /* Specific width for back icon */
+    height: 20px; /* Specific height for back icon */
+}
+
+.search-icon {
+    width: 20px; /* Specific width for search icon */
+    height: 20px; /* Specific height for search icon */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background: #555;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.search-container input {
+    border: none;
+    background: transparent;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    width: 90%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 5px;
+    overflow-x: hidden;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+}
+
+.grid-item img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+}
+
+.grid-item .item-name {
+    text-align: left;
+    padding: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.error-image {
+    width: 100%;
+    height: auto; 
+    object-fit: contain; 
+    border: 1px solid #ccc; 
+    background-color: #f0f0f0; 
+}
+.header-title {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: left;
+    margin-right: 155px;
+}
