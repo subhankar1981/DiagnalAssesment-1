@@ -117,8 +117,8 @@ header span {
     background-color: #f0f0f0; 
 }
 .header-title {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 22px;
+    font-family: 'Titillium Web, sans-serif';
+    font-size: 23px;
     color: #ffffff;
     text-align: left;
     margin-right: 155px;
